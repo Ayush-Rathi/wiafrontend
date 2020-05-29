@@ -2,7 +2,6 @@ import React from 'react'
 
 import Header from './Header'
 import Navigation from '../navigation/components/Navigation'
-import Footer from './Footer'
 
 import LayoutSwitcher from '../layout/components/LayoutSwitcher'
 
@@ -19,8 +18,6 @@ export default class Layout extends React.Component {
 
           {this.props.children}
         </div>
-
-        <Footer />
      
       </div>
     )

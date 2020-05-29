@@ -11,9 +11,9 @@ const history = syncHistoryWithStore(hashHistory, store);
 const routes = {
 
   path: '/',
-  indexRoute: { onEnter: (nextState, replace) => replace('/dashboard') },
+  indexRoute: { onEnter: (nextState, replace) => replace('/tables') },
   childRoutes: [
-     require('./routes/dashboard').default,
+    // require('./routes/dashboard').default,
     // require('./routes/smartadmin-intel').default,
     //require('./routes/widgets').default,
     //require('./routes/outlook').default,
