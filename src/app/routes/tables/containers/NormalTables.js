@@ -8,6 +8,7 @@ export default class NormalTables extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      loading: false,
       name: ' ',
       email: ' ',
       searchResults: [

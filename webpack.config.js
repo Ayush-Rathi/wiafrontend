@@ -89,6 +89,7 @@ module.exports = (env) => {
         'node_modules'
       ]
     },
+    
     devServer: {
 
       // historyApiFallback: true,
