@@ -1,0 +1,32 @@
+{
+  "items": [
+    
+   
+    {
+      "title": "Tables",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "items": [
+        {
+          "title": "Part Price Search",
+          "route": "/tables/normal-tables"
+        },
+        {
+          "title": "Part Availability Search",
+          "route": "/tables/normal-tables"
+        },
+        {
+          "title": "Normal Tables",
+          "route": "/tables/normal-tables"
+        },
+        {
+          "title": "Data Tables",
+          "route": "/tables/datatables",
+          "badge": {
+            "label": "v1.10",
+            "class": "badge inbox-badge bg-color-greenLight"
+          }
+        }
+      ]
+    }
+  ]
+}
