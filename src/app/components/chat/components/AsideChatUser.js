@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import {Popover, OverlayTrigger} from 'react-bootstrap'
 
 import {bindActionCreators} from 'redux'
@@ -72,4 +72,4 @@ export default connect(
   (dispatch) => {
     return bindActionCreators(ChatActions, dispatch)
   }
-)(AsideChatUser)
+)(AsideChatUser) */

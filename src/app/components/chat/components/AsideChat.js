@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 
@@ -79,4 +79,4 @@ export default connect(
   (dispatch) => {
     return bindActionCreators(ChatActions, dispatch)
   }
-)(AsideChatWidget)
+)(AsideChatWidget) */

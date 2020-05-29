@@ -3,19 +3,19 @@ export default {
   component: require('../../components/common/Layout').default,
 
   childRoutes: [
-    {
-      path: 'datatables',
-      getComponent(nextState, cb){
-        System.import('./containers/Datatables').then((m)=> {
-          cb(null, m.default)
-        })
-      }
-    }
-    ,
+    
     {
       path: 'normal-tables',
       getComponent(nextState, cb){
         System.import('./containers/NormalTables').then((m)=> {
+          cb(null, m.default)
+        })
+      }
+    },
+    {
+      path: 'availability-tables',
+      getComponent(nextState, cb){
+        System.import('./containers/AvailabilityTables').then((m)=> {
           cb(null, m.default)
         })
       }

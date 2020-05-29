@@ -4,15 +4,9 @@
 
 import React from 'react'
 
-import WidgetGrid from '../../../components/widgets/WidgetGrid'
-import Stats from '../../../components/common/Stats'
 import BigBreadcrumbs from '../../../components/navigation/components/BigBreadcrumbs'
 
 import BirdEyeWidget from '../components/BirdEyeWidget'
-import LiveFeeds from '../components/LiveFeeds'
-import ChatWidget from '../../../components/chat/components/ChatWidget'
-import FullCalendarWidget from '../../../components/calendar/components/FullCalendarWidget'
-import TodoWidget from '../../../components/todo/components/TodoWidget'
 
 
 export default class Dashboard extends React.Component {
@@ -25,7 +19,6 @@ export default class Dashboard extends React.Component {
                           className="col-xs-12 col-sm-7 col-md-7 col-lg-4"/>
         </div>
 
-        <WidgetGrid>
 
           <div className="row">
             <article className="col-sm-12">
@@ -51,7 +44,6 @@ export default class Dashboard extends React.Component {
 
             </article>
           </div>
-        </WidgetGrid>
       </div>
     )
   }

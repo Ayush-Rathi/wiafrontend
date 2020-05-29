@@ -1,10 +1,7 @@
 import React from 'react'
 
-import { Alert } from 'react-bootstrap'
 
-import { Stats, BigBreadcrumbs, WidgetGrid, JarvisWidget } from '../../../components'
 import axios from 'axios';
-//import await from 'await';
 
 export default class NormalTables extends React.Component {
 
