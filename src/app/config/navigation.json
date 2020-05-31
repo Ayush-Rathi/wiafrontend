@@ -8,11 +8,19 @@
       "items": [
         {
           "title": "Part Price Search",
+          "route": "/tables/partpricesearch-tables"
+        },
+        {
+          "title": "Part Availibility Search",
           "route": "/tables/normal-tables"
         },
         {
-          "title": "Part Availability Search",
-          "route": "/tables/availability-tables"
+          "title": "Create Sales Quotation",
+          "route": "/tables/quotation-tables"
+        },
+        {
+          "title": "Customer Order",
+          "route": "/tables/customerorder-tables"
         }
         
        

@@ -6,9 +6,6 @@ import React from 'react'
 
 import BigBreadcrumbs from '../../../components/navigation/components/BigBreadcrumbs'
 
-import BirdEyeWidget from '../components/BirdEyeWidget'
-
-
 export default class Dashboard extends React.Component {
   render() {
     return (
@@ -38,9 +35,7 @@ export default class Dashboard extends React.Component {
 
             <article className="col-sm-12 col-md-12 col-lg-6">
 
-              <BirdEyeWidget />
-
-              <TodoWidget />
+             
 
             </article>
           </div>

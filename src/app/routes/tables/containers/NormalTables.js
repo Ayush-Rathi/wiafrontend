@@ -55,12 +55,10 @@ export default class NormalTables extends React.Component {
     console.log(this.state.name);
     e.preventDefault();
     const form = {
-      name: this.state.name,
-      email: this.state.email
+      name: this.state.name
     }
     this.setState({
-      name: '',
-      email: ''
+      name: ''
     })
     console.log(name);
   
@@ -105,7 +103,7 @@ a
                   value={this.state.name}
                   onChange={e => this.handleChange(e)} />
               </label>
-              <button value={this.state.email} onClick={(e) => this.onSubmit(e)}>Send</button>
+              <button onClick={(e) => this.onSubmit(e)}>Send</button>
             </div>
 
             <div className="table-responsive">
