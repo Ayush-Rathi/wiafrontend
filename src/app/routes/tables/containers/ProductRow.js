@@ -10,23 +10,24 @@ export class ProductRow extends React.Component {
     return (
       <tr className="eachRow">
         <EditableCell onProductTableUpdate={this.props.onProductTableUpdate} cellData={{
-          "type": "name",
-          value: this.props.product.name,
+          "type": "salesPortNumber",
+          value: this.props.product.salesPortNumber,
+          id: this.props.product.id
+        }}/>
+        
+        <EditableCell onProductTableUpdate={this.props.onProductTableUpdate} cellData={{
+          type: "quantity",
+          value: this.props.product.quantity,
           id: this.props.product.id
         }}/>
         <EditableCell onProductTableUpdate={this.props.onProductTableUpdate} cellData={{
-          type: "price",
-          value: this.props.product.price,
+          type: "unitPrice",
+          value: this.props.product.unitPrice,
           id: this.props.product.id
         }}/>
         <EditableCell onProductTableUpdate={this.props.onProductTableUpdate} cellData={{
-          type: "qty",
-          value: this.props.product.qty,
-          id: this.props.product.id
-        }}/>
-        <EditableCell onProductTableUpdate={this.props.onProductTableUpdate} cellData={{
-          type: "category",
-          value: this.props.product.category,
+          type: "totalPrice",
+          value: this.props.product.totalPrice,
           id: this.props.product.id
         }}/>
         <td className="del-cell">
